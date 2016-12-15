@@ -107,7 +107,7 @@
 
                                 <label for="comment-input">Frequency (min)</label>
 
-                                <input class="form-control" id="frequency-input" type="number">
+                                <input class="form-control" id="frequency-input" type="text">
 
                             </div>
 
@@ -185,6 +185,10 @@
             destination = $("#destination-input").val().trim();
             startTime = $("#startTime-input").val().trim();
             frequency = $("#frequency-input").val().trim();
+
+            // function resetAllValues() {
+            //     $('.panel-body').find('input:text').val('');
+            // }
 
             $("#name-input").val("");
             $("#destination-input").val("");
